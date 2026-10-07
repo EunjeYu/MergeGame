@@ -73,44 +73,53 @@ namespace MergeIt.Game.Services
 
         public GridPoint? GetNearCell(GridPoint generator)
         {
-            //y축과 관련된것이 width , x축과 관련된것이 height
-            int a = Mathf.Abs(generator.Y - _fieldLogicModel.FieldWidth);
-            int b = Mathf.Abs(generator.X - _fieldLogicModel.FieldHeight);
-            int round = a > b ? a : b;
-
             int x = generator.X;
             int y = generator.Y;
+            // y축과 관련된것이 width , x축과 관련된것이 height
+            int maxXDistance = Mathf.Max(x, (_fieldLogicModel.FieldHeight - 1) - x);
+            int maxYDistance = Mathf.Max(y, (_fieldLogicModel.FieldWidth - 1) - y);
+            int maxDistance = Mathf.Max(maxXDistance, maxYDistance);
 
-            List<GridPoint> pntList = new List<GridPoint>();
+            List<GridPoint> emptyList = new List<GridPoint>();
 
-            for (int i = 1; i < round; i++)
+            for (int distance = 1; distance <= maxDistance; distance++)
             {
-                for (int j = x - i; j <= x + i; j++)
+                emptyList.Clear();
+
+                //위, 아래
+                for (int column = y - distance; column <= y + distance; column++)
                 {
-                    for (int k = y - i; k <= y + i; k++)
-                    {
-                        if (Mathf.Abs(j - x) > (i - 1) || Mathf.Abs(k - y) > i - 1)
-                        {
-                            GridPoint gridPoint = new GridPoint(j, k);
-                            pntList.Add(gridPoint);
-                        }
-                    }
+                    GridPoint top = new GridPoint(x - distance, column);
+                    GridPoint bottom = new GridPoint(x + distance, column);
+
+                    if (IsAvailablePoint(top))
+                        emptyList.Add(top);
+
+                    if (IsAvailablePoint(bottom))
+                        emptyList.Add(bottom);
+                }
+                //왼, 오
+                for (int row = x - distance + 1; row < x + distance; row++)
+                {
+                    GridPoint left = new GridPoint(row, y - distance);
+                    GridPoint right = new GridPoint(row, y + distance);
+
+                    if (IsAvailablePoint(left))
+                        emptyList.Add(left);
+
+                    if (IsAvailablePoint(right))
+                        emptyList.Add(right);
                 }
 
-                pntList.Shuffle();
-
-                for (int l = 0; l < pntList.Count; l++)
+                if (emptyList.Count > 0)
                 {
-                    if (IsAvailablePoint(pntList[l]))
-                        return pntList[l];
+                    return emptyList[UnityEngine.Random.Range(0, emptyList.Count)];
                 }
-
-                pntList.Clear();
             }
-
             return null;
         }
-        
+
+
         bool IsAvailablePoint(GridPoint pnt)
         {
             return pnt.X >= 0 &&
