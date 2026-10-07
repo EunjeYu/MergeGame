@@ -1,0 +1,254 @@
+.grid-back {
+    --grid-background-color: rgb(31, 31, 31);
+    --line-color: rgba(59, 59, 59, 0.7);
+    --thick-line-color: rgba(199, 199, 199, 0.3);
+    --spacing: 10;
+}
+
+.root {
+    flex-grow: 1;
+}
+
+.evoBox {
+    margin: 2px;
+}
+
+.evoGraph {
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: rgba(24, 24, 24, 255);
+    flex-shrink: 0;
+}
+
+.itemImageField {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.titleField {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.itemBox {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.itemBoxWrap {
+    margin-left: 2px;
+    padding: 5px 5px 5px 20px;
+    border-bottom-width: 0;
+}
+
+.itemBoxWrap1 {
+    margin-left: -20px;
+    padding: 5px;
+}
+
+.itemScroll {
+    max-width: 300px;
+}
+
+.itemBoxGen {
+    padding: 5px;
+    margin: 5px;
+}
+
+.itemsGen {
+    align-items: stretch;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.genItemList > Label {
+    width: 70px;
+    min-width: 70px;
+}
+
+.genItemList > VisualElement {
+    width: 100px;
+    min-width: 100px;
+}
+
+.genItemList {
+    flex-grow: 1;
+}
+
+.generateSettings {
+    display: flex;
+    width: 195px;
+}
+
+.cantGenerateSettings {
+    display: none;
+}
+
+.boxBack {
+    background-color: #494949;
+}
+
+.boxBlock {
+    border-color: #808080;
+    padding: 1px 2px 1px 2px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.consumableSection {
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.itemObjectField {
+    height: 20px;
+    align-self: center;
+    flex-shrink: 1;
+}
+
+.itemField {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 10px;
+    flex: auto;
+    align-items: flex-start;
+}
+
+.genItemField {
+    flex: auto;
+    flex-grow: 0;
+    margin-right: 1px;
+    width: 30px;
+    align-items: flex-start;
+}
+
+.itemInteger {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 10px;
+    flex: auto;
+    align-items: flex-start;
+}
+
+.itemTextArea {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    height: 80px;
+    align-content: flex-start;
+}
+
+.itemTextArea > TextInput {
+    -unity-text-align: upper-left;
+    white-space: normal;
+}
+
+.itemContainer {
+    flex-direction: row;
+    align-content: flex-start;
+    margin-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.itemContainerPopup {
+    width: auto;
+}
+
+.itemNameContainer {
+    flex-direction: row;
+    align-content: flex-start;
+    background-color: rgba(63, 63, 63, 0.81);
+}
+
+.nodeBorderGenerator {
+    background-color: rgba(36, 76, 188, 0.81);
+}
+
+.nodeBorderEvolution {
+    background-color: rgba(106, 218, 22, 0.81);
+}
+
+.nodeBorderSimple {
+    background-color: rgba(255, 227, 0, 0.81);
+}
+
+.nodeInvalid {
+    background-color: rgba(255, 0, 0, 0.81);
+}
+
+.generatedItemsControls {
+    flex-direction: row;
+    align-self: flex-end;
+    margin: 2px;
+}
+
+/*.generateItem {*/
+/*    flex-direction: column;*/
+/*    align-content: flex-start;*/
+/*    height: 50px;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+.itemLabel {
+    padding-left: 2px;
+    align-self: center;
+}
+
+.itemLabelTop
+{
+    align-self: flex-start !important;
+    margin-top: 5px;
+}
+
+.itemBoxLabel {
+    font-size: 12px;
+    background-color: #5B5B5B;
+    -unity-font-style: bold;
+    padding: 2px 0 0 5px;
+}
+
+#title-label {
+    font-size: 14px;
+    -unity-font-style: bold;
+}
+
+.node {
+    width: 230px;
+}
+
+.toolbar {
+    border-top-width: 1px;
+}
+
+.customFoldout {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 -20px;
+    padding-top: 3px;
+    -unity-font-style: bold;
+}
+
+.customFoldout:hover {
+    background-color: rgba(85, 85, 85, 0.3);
+}
+
+.customFoldout:active {
+    background-color: rgba(102, 102, 102, 0.3);
+}
+
+.customFoldout .unity-toggle__checkmark {
+    display: none;
+}
+
+.customFoldout .unity-base-field__input .unity-label {
+    font-size: 12px;
+}
+
+.customFoldout__arrow {
+    margin-right: 0;
+    font-size: 12px;
+}

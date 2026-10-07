@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:ui="UnityEngine.UIElements"
+         xmlns:uie="UnityEditor.UIElements"
+         xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd">
+    <ui:Box name="MainContainer" class="boxBlock">
+        <ui:Label name="Title" class="itemBoxLabel"/>
+        <ui:VisualElement name="CurrencyContainer" class="itemContainer">
+            <ui:Label text="Currency:" class="itemLabel"/>
+            <uie:EnumField name="CurrencyTypeField" class="itemInteger"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="AmountContainer" class="itemContainer">
+            <ui:Label text="Amount:" class="itemLabel"/>
+            <uie:IntegerField name="AmountField" class="itemInteger"/>
+        </ui:VisualElement>
+    </ui:Box>
+</ui:UXML>

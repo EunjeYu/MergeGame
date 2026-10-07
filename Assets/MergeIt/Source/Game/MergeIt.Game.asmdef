@@ -1,0 +1,20 @@
+{
+    "name": "MergeIt.Game",
+    "rootNamespace": "MergeIt.Game",
+    "references": [
+        "GUID:03c6c796793224c71b0642498b843955",
+        "GUID:347188c53f75241ff80e65b172de1dc8",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:435c686cf9f214af1bc3fa0e9e92d882",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

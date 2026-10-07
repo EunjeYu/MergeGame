@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b72332746789b41a27a405378028f3, type: 3}
+  m_Name: BagBoxConfig 1
+  m_EditorClassIdentifier: 
+  _type: 1
+  _commonSettings:
+    _expanded: 1
+    _description: Tap to draw out items stored inside or merge to produce Bag Box
+      L
+    _splitCostSettings:
+      _currencyType: 2
+      _amount: 1
+    _sellCostSettings:
+      _currencyType: 0
+      _amount: 10
+    _unlockCostSettings:
+      _currencyType: 0
+      _amount: 10
+    _name: Bag Box M
+    _icon: {fileID: 8196838751629904819, guid: c3a7814d2976a4da8ae613be05678041, type: 3}
+    _isConsumable: 0
+    _consumableSettings:
+      _target: 0
+      _operation: 2
+      _value: 1
+  _generatorSettings:
+    _expanded: 1
+    _stack: 0
+    _minDrop: 3
+    _maxDrop: 15
+    _chargeTime: 15
+    _dropCount: 1
+    _skipChargeCostSettings:
+      _currencyType: 1
+      _amount: 4
+    _adSkip: 0
+    _charged: 0
+    _energyCost: 1
+    _isUnlimited: 1
+    _needOpen: 0
+    _openTime: 0
+    _skipOpenCostSettings:
+      _currencyType: 0
+      _amount: 0
+    _generateBlocked: 0
+    _generateItems:
+    - Element: {fileID: 11400000, guid: 7b724b8e378614737ad628b8a422777a, type: 2}
+      Possibility: 65
+    - Element: {fileID: 11400000, guid: 741881e7dc75142349a8a614f7305997, type: 2}
+      Possibility: 20
+    - Element: {fileID: 11400000, guid: fc27160c0fc5a452aa68debc3fd8e4c1, type: 2}
+      Possibility: 10
+    - Element: {fileID: 11400000, guid: 8353c351b91764a32a9cdad07f211201, type: 2}
+      Possibility: 5
+    - Element: {fileID: 11400000, guid: b61758723018d4d54af0dbf60d8434fb, type: 2}
+      Possibility: 2
+  _id: 15bca5e1-811d-40a9-b540-41fb2ed46f33

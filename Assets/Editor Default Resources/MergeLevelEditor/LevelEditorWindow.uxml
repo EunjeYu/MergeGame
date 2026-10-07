@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ui:UXML xmlns:ui="UnityEngine.UIElements"
+         xmlns:uie="UnityEditor.UIElements">
+    <uie:Toolbar class="toolbar">
+        <uie:ToolbarMenu name="FileMenu" text="File" />
+        <uie:ToolbarSpacer />
+        <ui:Label text="Scheme:" class="editorLabel" />
+        <uie:ObjectField name="EvolutionsField" class="schemeField" />
+        <uie:ToolbarSpacer />
+        <uie:ToolbarButton name="CreateButton" text="Create new level" />
+    </uie:Toolbar>
+    <ui:VisualElement name="Container">
+        <ui:VisualElement name="LeftPanel">
+            <ui:Label name="WarningLabel" class="warnLabel" text="Select scheme to edit level" />
+            <ui:ScrollView mode="VerticalAndHorizontal" name="Scroll">
+                <ui:VisualElement name="ItemsGrid" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="VSplitterAnchor" />
+        <ui:VisualElement name="RightPanel">
+            <ui:Box name="ItemFrameSettings" text="Item settings">
+                <ui:VisualElement name="EvoPanel" />
+                <ui:Image name="ItemIcon" class="itemFrameIcon" />
+                <ui:Toggle name="IsLocked" text="Is locked" />
+                <ui:Button name="ApplyButton" text="Apply" />
+                <ui:Button name="ClearButton" text="Clear" />
+                <ui:VisualElement name="CopyFrom" class="copyContainer">
+                    <ui:Button name="CopyButton" text="Copy from" />
+                    <uie:IntegerField name="CopyRow" label="Row:" class="intField" />
+                    <uie:IntegerField name="CopyColumn" label="Column:" class="intField" />
+                </ui:VisualElement>
+            </ui:Box>
+            <ui:HelpBox message-type="Info" name="NavHelp">
+                <ui:VisualElement>
+                    <ui:Label text="Keyboard shortcuts:" style="-unity-font-style: bold; color: yellow"/>
+                    <ui:Label text="&lt;b&gt;(Cmd/Ctrl+S):&lt;/b&gt; Save current level."/>
+                    <ui:Label text="&lt;b&gt;(Cmd/Ctrl+C):&lt;/b&gt; Copy selected cell."/>
+                    <ui:Label text="&lt;b&gt;(Cmd/Ctrl+V):&lt;/b&gt; Paste selected cell."/>
+                    <ui:Label text="&lt;b&gt;(Cmd/Ctrl+Z):&lt;/b&gt; Undo last action."/>
+                    <ui:Label text="&lt;b&gt;(Cmd/Ctrl+Y):&lt;/b&gt; Redo cancelled action."/>
+                    <ui:Label text="&lt;b&gt;(Delete/Backspace):&lt;/b&gt; Clear selected cell."/>
+                </ui:VisualElement>
+            </ui:HelpBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:PopupWindow name="CreateLevelPopup" text="Field size:" class="popup">
+        <uie:IntegerField name="FieldWidth" label="Width:" class="intField" />
+        <uie:IntegerField name="FieldHeight" label="Height:" class="intField" />
+        <ui:Button name="CreateLevelButton" text="Create" class="createButton" />
+    </ui:PopupWindow>
+</ui:UXML>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:ui="UnityEngine.UIElements"
+         xmlns:uie="UnityEditor.UIElements"
+         xmlns:custom="MergeIt.Editor.Configs"
+         xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd">
+    <ui:Box class="itemBoxWrap">
+        <ui:Toggle name="CommonSettingsFoldout" text="Common Settings" class="customFoldout">
+            <ui:Label name="Arrow" text="►" class="customFoldout__arrow" /> 
+        </ui:Toggle>
+        <ui:Box class="itemBoxWrap1" name="CommonSettings">
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Name:" class="itemLabel" />
+                <ui:TextField name="Name" class="itemField" binding-path="_commonSettings._name" />
+            </ui:VisualElement>
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Icon prefab:" class="itemLabel" />
+                <uie:ObjectField name="IconContainer" class="itemObjectField"
+                                 binding-path="_commonSettings._icon" />
+            </ui:VisualElement>
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Icon:" class="itemLabel" />
+                <ui:Image name="ItemImage" class="itemImageField" />
+            </ui:VisualElement>
+            <ui:Label text="Description:" />
+            <ui:TextField name="Description" class="itemTextArea" multiline="true"
+                          binding-path="_commonSettings._description" />
+            <custom:CurrencyComponent name="SellParameters" title="Sell Price:"
+                                      type-binding="_commonSettings._sellCostSettings._currencyType"
+                                      amount-binding="_commonSettings._sellCostSettings._amount" />
+            <custom:CurrencyComponent name="SplitParameters" title="Split Cost:"
+                                      type-binding="_commonSettings._splitCostSettings._currencyType"
+                                      amount-binding="_commonSettings._splitCostSettings._amount" />
+            <custom:CurrencyComponent name="UnlockParameters" title="Unlock Cost:"
+                                      type-binding="_commonSettings._unlockCostSettings._currencyType"
+                                      amount-binding="_commonSettings._unlockCostSettings._amount" />
+            <ui:Box class="consumableSection boxBlock">
+                <ui:VisualElement style="flex-direction: row" class="itemBoxLabel">
+                    <ui:Label text="Is Consumable:" />
+                    <ui:Toggle name="IsConsumable" binding-path="_commonSettings._isConsumable" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ConsumableContainer">
+                    <ui:VisualElement name="ConsumableTarget" class="itemContainer">
+                        <ui:Label text="Target:" class="itemLabel" />
+                        <uie:EnumField name="TargetTypeField"
+                                       binding-path="_commonSettings._consumableSettings._target"
+                                       class="itemInteger" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ConsumableOperation" class="itemContainer">
+                        <ui:Label text="Operation:" class="itemLabel" />
+                        <uie:EnumField name="OperationTypeField"
+                                       binding-path="_commonSettings._consumableSettings._operation"
+                                       class="itemInteger" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ConsumableDataValue" class="itemContainer">
+                        <ui:Label text="Value:" class="itemLabel" />
+                        <uie:IntegerField name="ConsumableValue" class="itemInteger"
+                                          binding-path="_commonSettings._consumableSettings._value" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Box>
+        </ui:Box>
+    </ui:Box>
+</ui:UXML>

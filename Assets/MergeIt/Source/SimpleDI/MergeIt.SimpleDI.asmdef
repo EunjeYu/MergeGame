@@ -1,0 +1,16 @@
+{
+    "name": "MergeIt.SimpleDI",
+    "rootNamespace": "MergeIt.SimpleDI",
+    "references": [
+        "GUID:435c686cf9f214af1bc3fa0e9e92d882"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

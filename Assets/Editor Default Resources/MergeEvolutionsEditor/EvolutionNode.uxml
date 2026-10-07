@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns:ui="UnityEngine.UIElements"
+      xmlns:uie="UnityEditor.UIElements">
+    <ui:Box class="evoBox">
+        <ui:VisualElement class="itemNameContainer">
+            <ui:Label text="Name:" class="itemLabel"/>
+            <ui:TextField name="Name" class="itemField"/>
+        </ui:VisualElement>
+        <ui:VisualElement class="itemNameContainer">
+            <ui:Label text="Description:" class="itemLabel itemLabelTop"/>
+            <ui:TextField name="Description" class="itemField" multiline="true"/>
+        </ui:VisualElement>
+        <ui:VisualElement class="itemNameContainer">
+            <ui:Label text="Discovered:" class="itemLabel"/>
+            <ui:Toggle name="Discovered"/>
+        </ui:VisualElement>
+    </ui:Box>
+</UXML>

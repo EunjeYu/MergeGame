@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b72332746789b41a27a405378028f3, type: 3}
+  m_Name: CoinsConfig 1
+  m_EditorClassIdentifier: 
+  _type: 0
+  _commonSettings:
+    _expanded: 1
+    _description: Tap to get {0} Coins, or merge to produce Coins
+    _splitCostSettings:
+      _currencyType: 0
+      _amount: 1
+    _sellCostSettings:
+      _currencyType: 0
+      _amount: 0
+    _unlockCostSettings:
+      _currencyType: 0
+      _amount: 10
+    _name: Coins
+    _icon: {fileID: 8196838751629904819, guid: cabc9075a4ca8412fa058b4f1863a20e, type: 3}
+    _isConsumable: 1
+    _consumableSettings:
+      _target: 0
+      _operation: 2
+      _value: 3
+  _generatorSettings:
+    _expanded: 0
+    _stack: 0
+    _minDrop: 0
+    _maxDrop: 0
+    _chargeTime: 0
+    _dropCount: 0
+    _skipChargeCostSettings:
+      _currencyType: 0
+      _amount: 0
+    _adSkip: 0
+    _charged: 0
+    _energyCost: 0
+    _isUnlimited: 0
+    _needOpen: 0
+    _openTime: 0
+    _skipOpenCostSettings:
+      _currencyType: 0
+      _amount: 0
+    _generateBlocked: 0
+    _generateItems: []
+  _id: f9db9cae-b448-425c-86fa-4bdd0172c6f1

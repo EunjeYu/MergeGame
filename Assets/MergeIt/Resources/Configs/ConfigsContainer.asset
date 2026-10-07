@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a88f886a0a4b2fa4c0f28d335a9d06, type: 3}
+  m_Name: ConfigsContainer
+  m_EditorClassIdentifier: 
+  _prefabs:
+  - _type: 0
+    _prefab: {fileID: -9076638859544770980, guid: 1e0e66f9d45284ee79f5be4239d84478,
+      type: 3}
+  - _type: 1
+    _prefab: {fileID: 6632888238738147252, guid: 73ecfd8bb857549d081cc2deeb53897a,
+      type: 3}
+  _gameConfig: {fileID: 11400000, guid: 353388f6c43dc9d4188779e86409a2e6, type: 2}
+  _iconsConfig: {fileID: 11400000, guid: d447ed6c29aa94de19e366b335415a87, type: 2}
+  _inventoryConfig: {fileID: 11400000, guid: f3921c8a5c639ec49b632a99e413580b, type: 2}
+  _levelConfig: {fileID: 11400000, guid: b9fcc1b70706d4d88ad24b20215d5e20, type: 2}
+  _levelUpConfig: {fileID: 11400000, guid: 19caa630e75db2f439afd1358abf4c0c, type: 2}
+  _hintsConfig: {fileID: 11400000, guid: 726c6b7b43d2e48389007fd58f06b5eb, type: 2}
+  _effectsConfigs:
+  - {fileID: 11400000, guid: d3fdbdbda00ec4086bc8369f8d7a1e62, type: 2}
+  - {fileID: 11400000, guid: d4f2ca0db3ac64473baf4e7bc1fa9647, type: 2}
+  - {fileID: 11400000, guid: 5211341046ad84f23a604d854a08e6a5, type: 2}
+  - {fileID: 11400000, guid: c59302d22d9dc42df8dedaae70f4bad3, type: 2}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements"
+         xmlns:uie="UnityEditor.UIElements"
+         xmlns:egv="MergeIt.Editor.EvolutionsEditor"
+         editor-extension-mode="False">
+    <uie:Toolbar class="toolbar">
+        <uie:ToolbarMenu name="FileMenu" text="File"/>
+<!--        <uie:ToolbarSpacer/>-->
+<!--        <uie:ToolbarButton name="BakeScheme" text="Bake evolutions"/>-->
+    </uie:Toolbar>
+    <egv:EvolutionsGraphView name="EvoGraph" class="evoGraph"/>
+</ui:UXML>

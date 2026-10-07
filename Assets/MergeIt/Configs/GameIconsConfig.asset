@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2598d92576c46c2ae0b809904c1960d, type: 3}
+  m_Name: GameIconsConfig
+  m_EditorClassIdentifier: 
+  _infoPanelCurrencyIcons:
+  - _currencyType: 0
+    _currencyIcon: {fileID: 21300000, guid: c4a2a53e1dbaa4664b1bfa3394d2fdf8, type: 3}
+  - _currencyType: 1
+    _currencyIcon: {fileID: 21300000, guid: 7a412cdb1d08e46518f9b08fe08c8085, type: 3}
+  - _currencyType: 2
+    _currencyIcon: {fileID: 21300000, guid: 6690f8238a30b432c8c701d9052967c2, type: 3}
+  - _currencyType: 3
+    _currencyIcon: {fileID: 21300000, guid: 0715760cb770d43749da22bb8d5602bb, type: 3}

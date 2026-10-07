@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b72332746789b41a27a405378028f3, type: 3}
+  m_Name: SafeLockerConfig
+  m_EditorClassIdentifier: 
+  _type: 1
+  _commonSettings:
+    _expanded: 1
+    _description: Tap to draw out items stored inside
+    _splitCostSettings:
+      _currencyType: 2
+      _amount: 1
+    _sellCostSettings:
+      _currencyType: 0
+      _amount: 4
+    _unlockCostSettings:
+      _currencyType: 0
+      _amount: 10
+    _name: Safe Locker
+    _icon: {fileID: 8196838751629904819, guid: daa4ce1b739804dd8bd0347d4233717a, type: 3}
+    _isConsumable: 0
+    _consumableSettings:
+      _target: 0
+      _operation: 2
+      _value: 1
+  _generatorSettings:
+    _expanded: 1
+    _stack: 2
+    _minDrop: 1
+    _maxDrop: 15
+    _chargeTime: 1
+    _dropCount: 0
+    _skipChargeCostSettings:
+      _currencyType: 1
+      _amount: 3
+    _adSkip: 0
+    _charged: 1
+    _energyCost: 0
+    _isUnlimited: 0
+    _needOpen: 0
+    _openTime: 0
+    _skipOpenCostSettings:
+      _currencyType: 0
+      _amount: 0
+    _generateBlocked: 0
+    _generateItems:
+    - Element: {fileID: 11400000, guid: 258f46d09c19e42c1ae42a617667d396, type: 2}
+      Possibility: 80
+    - Element: {fileID: 11400000, guid: 2e002e088faf44bf1a6864bc795031cb, type: 2}
+      Possibility: 10
+    - Element: {fileID: 11400000, guid: 006efc945c9124963b24fe2f2526e1a8, type: 2}
+      Possibility: 6
+    - Element: {fileID: 11400000, guid: 07602a28ea4884e6c80132f48a795327, type: 2}
+      Possibility: 3
+  _id: 90b1fcb3-6b26-43d7-8e63-d1ab0d4de94b

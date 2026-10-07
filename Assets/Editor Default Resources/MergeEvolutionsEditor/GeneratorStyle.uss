@@ -1,0 +1,38 @@
+.addButton {
+    font-size: 16px;
+    -unity-font-style: bold;
+    background-color: green;
+}
+
+.removeButton {
+    -unity-font-style: bold;
+    background-color: darkred;
+    flex-direction: row;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-self: flex-start;
+    font-size: 16px !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin-top: 1px !important;
+}
+
+.clearButton {
+    -unity-font-style: bold;
+    background-color: blue;
+}
+
+.genItemContainer {
+    flex-direction: row;
+    align-content: flex-start;
+    align-self: flex-start;
+    width: 120px;
+}
+
+.genItemLabel {
+    width: 10px;
+}
+
+.genItemLabelIndex {
+    width: 16px;
+}

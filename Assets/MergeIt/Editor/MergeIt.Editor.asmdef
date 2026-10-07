@@ -1,0 +1,19 @@
+{
+    "name": "MergeIt.Editor",
+    "rootNamespace": "MergeIt.Editor",
+    "references": [
+        "GUID:347188c53f75241ff80e65b172de1dc8",
+        "GUID:435c686cf9f214af1bc3fa0e9e92d882"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

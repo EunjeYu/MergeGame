@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:ui="UnityEngine.UIElements"
+         xmlns:uie="UnityEditor.UIElements"
+         xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd">
+        <ui:Label name="ItemGenIndex" class="itemLabel genItemLabelIndex"/>
+        <uie:IntegerField name="ItemChance" class="genItemField"/>
+        <ui:Label text="%" class="itemLabel genItemLabel"/>
+        <ui:VisualElement name="ElementsPopup" class="genItemContainer"/>
+        <ui:Button name="RemoveButton" class="removeButton" text="-"/>
+</ui:UXML>

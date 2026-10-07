@@ -1,0 +1,520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea3a14fedc2f410b886a765b14b3314e, type: 3}
+  m_Name: Example_scheme
+  m_EditorClassIdentifier: 
+  SchemeData:
+    ElementsNodesData:
+    - _id: ebd7880a-190c-4191-a7a3-2f8ee38696aa
+      _elementConfig: {fileID: 11400000, guid: 3446cb3cf173a45468c1b1d67186c8e5, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 452.5
+        y: -2769
+        width: 230
+        height: 718.5
+    - _id: 643bcca7-fd22-4beb-a59b-ea2f81302d31
+      _elementConfig: {fileID: 11400000, guid: 3bdc20ced63fa4e6ebfd23c11795ccc6, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1030
+        y: -2769
+        width: 230
+        height: 718.5
+    - _id: 54a056d8-cf5f-41ad-a390-8479c87ea620
+      _elementConfig: {fileID: 11400000, guid: 567c199ff980546ca9c5dc15ccc466c0, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1275.5
+        y: -2769
+        width: 230
+        height: 718.5
+    - _id: 2747296e-8cc7-4e42-bb7c-f79f540b4d4e
+      _elementConfig: {fileID: 11400000, guid: 1cc3b4ecf6e664d0fade63bc56246a24, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1526.5
+        y: -2769
+        width: 230
+        height: 718.5
+    - _id: 11064f94-cfd1-4c00-ae0e-e9df9710f57f
+      _elementConfig: {fileID: 11400000, guid: 5e23aceca344043c7912575859359f3e, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 2144.5
+        y: -2770.5
+        width: 230
+        height: 718.5
+    - _id: 92384f4b-12ed-47d1-9136-266f5ba4daac
+      _elementConfig: {fileID: 11400000, guid: a0a29ef0e998543ca981bfa938dcafa9, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 2390
+        y: -2770.5
+        width: 230
+        height: 718.5
+    - _id: 6a44c197-5e3a-404f-8712-fd6699a36a25
+      _elementConfig: {fileID: 11400000, guid: c4fcd72b85de04ffa843685feefd74a9, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 2641
+        y: -2770.5
+        width: 230
+        height: 718.5
+    - _id: 936061a1-d44b-43b8-9708-b5ee119588e9
+      _elementConfig: {fileID: 11400000, guid: 4f9bfe54418f144ae882db75fa7c89f5, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 3299
+        y: -1854
+        width: 230
+        height: 1233
+    - _id: 02ad4ec9-f37b-45eb-8002-8c6b37ea0503
+      _elementConfig: {fileID: 11400000, guid: 83b5d7bd2166846c0914867e0a9d38be, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 2746.5
+        y: -1852.5
+        width: 230
+        height: 1147.5
+    - _id: fbcfee32-09a2-4a52-a981-f1f2873346e8
+      _elementConfig: {fileID: 11400000, guid: 7b724b8e378614737ad628b8a422777a, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1134.5
+        y: -1852.5
+        width: 230
+        height: 636
+    - _id: bd7ebb3f-f7d7-4709-95b1-718f15e24f39
+      _elementConfig: {fileID: 11400000, guid: 7197123a8239a4a01a7bb7ddd9249263, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1136.5
+        y: 482.5
+        width: 230
+        height: 718.5
+    - _id: 94f93aca-e6e3-48fd-b524-3407bbf5db9a
+      _elementConfig: {fileID: 11400000, guid: 30ff5c06b88cc4478b60b1f33f645196, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1738
+        y: 482.5
+        width: 230
+        height: 718.5
+    - _id: af14e8db-6cfe-450c-b7eb-668ede09fb2f
+      _elementConfig: {fileID: 11400000, guid: 5760dd4047af04fc190d6163a238d68c, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 2036
+        y: 482.5
+        width: 230
+        height: 718.5
+    - _id: 04630498-cf73-453b-be36-a7025251facb
+      _elementConfig: {fileID: 11400000, guid: c891021dfb2cc446eb4d345dd1971e5c, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1435
+        y: 482.5
+        width: 230
+        height: 718.5
+    - _id: ebcd562c-d6bf-48ac-a8d1-e7a8353f8a8a
+      _elementConfig: {fileID: 11400000, guid: 0d7c75d27458841ecbb95d37a4e63d95, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1136.5
+        y: -376
+        width: 230
+        height: 718.5
+    - _id: 6f962c7e-c7b4-4ac8-9977-f689dbbe4f48
+      _elementConfig: {fileID: 11400000, guid: fc27160c0fc5a452aa68debc3fd8e4c1, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1661
+        y: -1852.5
+        width: 230
+        height: 636
+    - _id: 58f8c6ed-1e92-443c-b7a6-f781ea64a684
+      _elementConfig: {fileID: 11400000, guid: 8353c351b91764a32a9cdad07f211201, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1935
+        y: -1852.5
+        width: 230
+        height: 636
+    - _id: 92bbac8e-f0e4-4a7d-a14e-3497e265fd1c
+      _elementConfig: {fileID: 11400000, guid: 741881e7dc75142349a8a614f7305997, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1394
+        y: -1852.5
+        width: 230
+        height: 636
+    - _id: 3e62d84c-e4ce-4ade-805a-e2660da6fc97
+      _elementConfig: {fileID: 11400000, guid: b61758723018d4d54af0dbf60d8434fb, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 2201.5
+        y: -1852.5
+        width: 230
+        height: 636
+    - _id: 2e5a8008-721a-4cb4-88b3-6968a454c607
+      _elementConfig: {fileID: 11400000, guid: 006efc945c9124963b24fe2f2526e1a8, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1661
+        y: -1117.5
+        width: 230
+        height: 636
+    - _id: 0c65517f-f97c-49a7-8324-03a04ae35292
+      _elementConfig: {fileID: 11400000, guid: 2e002e088faf44bf1a6864bc795031cb, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1394
+        y: -1117.5
+        width: 230
+        height: 636
+    - _id: 8300f98b-8f09-49b4-8b1d-da1260537146
+      _elementConfig: {fileID: 11400000, guid: 258f46d09c19e42c1ae42a617667d396, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1136.5
+        y: -1117.5
+        width: 230
+        height: 636
+    - _id: e15d8f87-c770-40de-a308-155d3948170c
+      _elementConfig: {fileID: 11400000, guid: 25374b8bdc4144c29a2fa2bf8bfbf8c0, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 3024
+        y: -1852.5
+        width: 230
+        height: 1204.5
+    - _id: ffdbcbbb-3b1c-4024-96a8-8aacf2b3ba78
+      _elementConfig: {fileID: 11400000, guid: 184745c0389064335b596301dbc1c64f, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1661
+        y: -376
+        width: 230
+        height: 718.5
+    - _id: 3bf28213-d3bf-484f-b57e-365bb6aa4a97
+      _elementConfig: {fileID: 11400000, guid: c2bde557d5dc24ea7bdfd03740aa2e08, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 2473
+        y: -1852.5
+        width: 230
+        height: 636
+    - _id: 07bf3ed0-66ff-4ccf-9b1b-729df4b3fb20
+      _elementConfig: {fileID: 11400000, guid: 5f2cc1f5044324d06b159ae09e8b41a1, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 2746.5
+        y: -621
+        width: 230
+        height: 1356.5
+    - _id: 329f249c-cd8a-44d8-ae74-532842f3bd46
+      _elementConfig: {fileID: 11400000, guid: f9650906f7d5d462dbbf6988b078a94d, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 2201.5
+        y: -1117.5
+        width: 230
+        height: 1212.5
+    - _id: 7c896263-8535-485f-a5ab-dfa2269e5fed
+      _elementConfig: {fileID: 11400000, guid: 07602a28ea4884e6c80132f48a795327, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1935
+        y: -1117.5
+        width: 230
+        height: 636
+    - _id: 8b59b33e-8802-4f8e-9298-65e7d5f41053
+      _elementConfig: {fileID: 11400000, guid: 378a57755deac4d569ee77f9436fa8f0, type: 2}
+      _position:
+        serializedVersion: 2
+        x: 1394
+        y: -376
+        width: 230
+        height: 718.5
+    EvolutionsNodesData:
+    - _id: 12ee418a-5166-45b9-87a9-d82aa47cb90f
+      _name: Time
+      _description: The two most powerful warriors are patience and time
+      _discovered: 0
+      _position:
+        serializedVersion: 2
+        x: 199
+        y: -2769
+        width: 230
+        height: 148
+    - _id: 7df6b5d3-3cb6-4c2d-889c-876810290e78
+      _name: Coins
+      _description: Collect coins to buy more stuff
+      _discovered: 0
+      _position:
+        serializedVersion: 2
+        x: 776.5
+        y: -2770.5
+        width: 230
+        height: 148
+    - _id: 376fdb16-9adb-4bdb-9b4b-71a340e11177
+      _name: Crystals
+      _description: Shine bright like a diamond
+      _discovered: 0
+      _position:
+        serializedVersion: 2
+        x: 1891
+        y: -2772
+        width: 230
+        height: 148
+    - _id: 27ac607f-11c9-4af1-8eaa-4dcf12851732
+      _name: Energy
+      _description: Nothing is more powerful than a person with a fully-charged energy
+      _discovered: 0
+      _position:
+        serializedVersion: 2
+        x: 871
+        y: 482.5
+        width: 230
+        height: 148
+    - _id: 9cd5f163-6350-4774-bc10-8069f5249482
+      _name: Money
+      _description: "Money doesn\u2019t grow on trees"
+      _discovered: 0
+      _position:
+        serializedVersion: 2
+        x: 891
+        y: -1117.5
+        width: 230
+        height: 148
+    - _id: 4c66ef2e-79f1-4d02-866b-2aef9523cafb
+      _name: Painting
+      _description: Draw whatever you want!
+      _discovered: 0
+      _position:
+        serializedVersion: 2
+        x: 891
+        y: -1852.5
+        width: 230
+        height: 148
+    - _id: 23ea6d55-3d71-4dfb-bd24-b129480868ad
+      _name: Gifts
+      _description: Everyone loves gifts
+      _discovered: 1
+      _position:
+        serializedVersion: 2
+        x: 2475
+        y: -621
+        width: 230
+        height: 148
+    - _id: 8d921ac8-d981-48c5-8daa-1e52c7ea6dd2
+      _name: Experience
+      _description: 'Experience is the teacher of all things
+
+'
+      _discovered: 0
+      _position:
+        serializedVersion: 2
+        x: 891
+        y: -376
+        width: 230
+        height: 162.5
+    Edges:
+    - OutputNodeID: 92384f4b-12ed-47d1-9136-266f5ba4daac
+      InputNodeID: 6a44c197-5e3a-404f-8712-fd6699a36a25
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 11064f94-cfd1-4c00-ae0e-e9df9710f57f
+      InputNodeID: 92384f4b-12ed-47d1-9136-266f5ba4daac
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 376fdb16-9adb-4bdb-9b4b-71a340e11177
+      InputNodeID: 11064f94-cfd1-4c00-ae0e-e9df9710f57f
+      OutputPortName: evolution of
+      InputPortName: evolved from
+    - OutputNodeID: 643bcca7-fd22-4beb-a59b-ea2f81302d31
+      InputNodeID: 54a056d8-cf5f-41ad-a390-8479c87ea620
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 54a056d8-cf5f-41ad-a390-8479c87ea620
+      InputNodeID: 2747296e-8cc7-4e42-bb7c-f79f540b4d4e
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 7df6b5d3-3cb6-4c2d-889c-876810290e78
+      InputNodeID: 643bcca7-fd22-4beb-a59b-ea2f81302d31
+      OutputPortName: evolution of
+      InputPortName: evolved from
+    - OutputNodeID: fbcfee32-09a2-4a52-a981-f1f2873346e8
+      InputNodeID: 92bbac8e-f0e4-4a7d-a14e-3497e265fd1c
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 92bbac8e-f0e4-4a7d-a14e-3497e265fd1c
+      InputNodeID: 6f962c7e-c7b4-4ac8-9977-f689dbbe4f48
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 6f962c7e-c7b4-4ac8-9977-f689dbbe4f48
+      InputNodeID: 58f8c6ed-1e92-443c-b7a6-f781ea64a684
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 58f8c6ed-1e92-443c-b7a6-f781ea64a684
+      InputNodeID: 3e62d84c-e4ce-4ade-805a-e2660da6fc97
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 3e62d84c-e4ce-4ade-805a-e2660da6fc97
+      InputNodeID: 3bf28213-d3bf-484f-b57e-365bb6aa4a97
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 02ad4ec9-f37b-45eb-8002-8c6b37ea0503
+      InputNodeID: e15d8f87-c770-40de-a308-155d3948170c
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: e15d8f87-c770-40de-a308-155d3948170c
+      InputNodeID: 936061a1-d44b-43b8-9708-b5ee119588e9
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 3bf28213-d3bf-484f-b57e-365bb6aa4a97
+      InputNodeID: 02ad4ec9-f37b-45eb-8002-8c6b37ea0503
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 4c66ef2e-79f1-4d02-866b-2aef9523cafb
+      InputNodeID: fbcfee32-09a2-4a52-a981-f1f2873346e8
+      OutputPortName: evolution of
+      InputPortName: evolved from
+    - OutputNodeID: 9cd5f163-6350-4774-bc10-8069f5249482
+      InputNodeID: 8300f98b-8f09-49b4-8b1d-da1260537146
+      OutputPortName: evolution of
+      InputPortName: evolved from
+    - OutputNodeID: 8300f98b-8f09-49b4-8b1d-da1260537146
+      InputNodeID: 0c65517f-f97c-49a7-8324-03a04ae35292
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 0c65517f-f97c-49a7-8324-03a04ae35292
+      InputNodeID: 2e5a8008-721a-4cb4-88b3-6968a454c607
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 2e5a8008-721a-4cb4-88b3-6968a454c607
+      InputNodeID: 7c896263-8535-485f-a5ab-dfa2269e5fed
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 7c896263-8535-485f-a5ab-dfa2269e5fed
+      InputNodeID: 329f249c-cd8a-44d8-ae74-532842f3bd46
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 04630498-cf73-453b-be36-a7025251facb
+      InputNodeID: 94f93aca-e6e3-48fd-b524-3407bbf5db9a
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: bd7ebb3f-f7d7-4709-95b1-718f15e24f39
+      InputNodeID: 04630498-cf73-453b-be36-a7025251facb
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 27ac607f-11c9-4af1-8eaa-4dcf12851732
+      InputNodeID: bd7ebb3f-f7d7-4709-95b1-718f15e24f39
+      OutputPortName: evolution of
+      InputPortName: evolved from
+    - OutputNodeID: 8d921ac8-d981-48c5-8daa-1e52c7ea6dd2
+      InputNodeID: ebcd562c-d6bf-48ac-a8d1-e7a8353f8a8a
+      OutputPortName: evolution of
+      InputPortName: evolved from
+    - OutputNodeID: ebcd562c-d6bf-48ac-a8d1-e7a8353f8a8a
+      InputNodeID: 8b59b33e-8802-4f8e-9298-65e7d5f41053
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 8b59b33e-8802-4f8e-9298-65e7d5f41053
+      InputNodeID: ffdbcbbb-3b1c-4024-96a8-8aacf2b3ba78
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 94f93aca-e6e3-48fd-b524-3407bbf5db9a
+      InputNodeID: af14e8db-6cfe-450c-b7eb-668ede09fb2f
+      OutputPortName: evolve
+      InputPortName: evolved from
+    - OutputNodeID: 12ee418a-5166-45b9-87a9-d82aa47cb90f
+      InputNodeID: ebd7880a-190c-4191-a7a3-2f8ee38696aa
+      OutputPortName: evolution of
+      InputPortName: evolved from
+    - OutputNodeID: 23ea6d55-3d71-4dfb-bd24-b129480868ad
+      InputNodeID: 07bf3ed0-66ff-4ccf-9b1b-729df4b3fb20
+      OutputPortName: evolution of
+      InputPortName: evolved from
+    EvolutionsData:
+    - _guid: 12ee418a-5166-45b9-87a9-d82aa47cb90f
+      _name: Time
+      _description: The two most powerful warriors are patience and time
+      _discovered: 0
+      _chain:
+      - {fileID: 11400000, guid: 3446cb3cf173a45468c1b1d67186c8e5, type: 2}
+    - _guid: 7df6b5d3-3cb6-4c2d-889c-876810290e78
+      _name: Coins
+      _description: Collect coins to buy more stuff
+      _discovered: 0
+      _chain:
+      - {fileID: 11400000, guid: 3bdc20ced63fa4e6ebfd23c11795ccc6, type: 2}
+      - {fileID: 11400000, guid: 567c199ff980546ca9c5dc15ccc466c0, type: 2}
+      - {fileID: 11400000, guid: 1cc3b4ecf6e664d0fade63bc56246a24, type: 2}
+    - _guid: 376fdb16-9adb-4bdb-9b4b-71a340e11177
+      _name: Crystals
+      _description: Shine bright like a diamond
+      _discovered: 0
+      _chain:
+      - {fileID: 11400000, guid: 5e23aceca344043c7912575859359f3e, type: 2}
+      - {fileID: 11400000, guid: a0a29ef0e998543ca981bfa938dcafa9, type: 2}
+      - {fileID: 11400000, guid: c4fcd72b85de04ffa843685feefd74a9, type: 2}
+    - _guid: 27ac607f-11c9-4af1-8eaa-4dcf12851732
+      _name: Energy
+      _description: Nothing is more powerful than a person with a fully-charged energy
+      _discovered: 0
+      _chain:
+      - {fileID: 11400000, guid: 7197123a8239a4a01a7bb7ddd9249263, type: 2}
+      - {fileID: 11400000, guid: c891021dfb2cc446eb4d345dd1971e5c, type: 2}
+      - {fileID: 11400000, guid: 30ff5c06b88cc4478b60b1f33f645196, type: 2}
+      - {fileID: 11400000, guid: 5760dd4047af04fc190d6163a238d68c, type: 2}
+    - _guid: 9cd5f163-6350-4774-bc10-8069f5249482
+      _name: Money
+      _description: "Money doesn\u2019t grow on trees"
+      _discovered: 0
+      _chain:
+      - {fileID: 11400000, guid: 258f46d09c19e42c1ae42a617667d396, type: 2}
+      - {fileID: 11400000, guid: 2e002e088faf44bf1a6864bc795031cb, type: 2}
+      - {fileID: 11400000, guid: 006efc945c9124963b24fe2f2526e1a8, type: 2}
+      - {fileID: 11400000, guid: 07602a28ea4884e6c80132f48a795327, type: 2}
+      - {fileID: 11400000, guid: f9650906f7d5d462dbbf6988b078a94d, type: 2}
+    - _guid: 4c66ef2e-79f1-4d02-866b-2aef9523cafb
+      _name: Painting
+      _description: Draw whatever you want!
+      _discovered: 0
+      _chain:
+      - {fileID: 11400000, guid: 7b724b8e378614737ad628b8a422777a, type: 2}
+      - {fileID: 11400000, guid: 741881e7dc75142349a8a614f7305997, type: 2}
+      - {fileID: 11400000, guid: fc27160c0fc5a452aa68debc3fd8e4c1, type: 2}
+      - {fileID: 11400000, guid: 8353c351b91764a32a9cdad07f211201, type: 2}
+      - {fileID: 11400000, guid: b61758723018d4d54af0dbf60d8434fb, type: 2}
+      - {fileID: 11400000, guid: c2bde557d5dc24ea7bdfd03740aa2e08, type: 2}
+      - {fileID: 11400000, guid: 83b5d7bd2166846c0914867e0a9d38be, type: 2}
+      - {fileID: 11400000, guid: 25374b8bdc4144c29a2fa2bf8bfbf8c0, type: 2}
+      - {fileID: 11400000, guid: 4f9bfe54418f144ae882db75fa7c89f5, type: 2}
+    - _guid: 23ea6d55-3d71-4dfb-bd24-b129480868ad
+      _name: Gifts
+      _description: Everyone loves gifts
+      _discovered: 1
+      _chain:
+      - {fileID: 11400000, guid: 5f2cc1f5044324d06b159ae09e8b41a1, type: 2}
+    - _guid: 8d921ac8-d981-48c5-8daa-1e52c7ea6dd2
+      _name: Experience
+      _description: 'Experience is the teacher of all things
+
+'
+      _discovered: 0
+      _chain:
+      - {fileID: 11400000, guid: 0d7c75d27458841ecbb95d37a4e63d95, type: 2}
+      - {fileID: 11400000, guid: 378a57755deac4d569ee77f9436fa8f0, type: 2}
+      - {fileID: 11400000, guid: 184745c0389064335b596301dbc1c64f, type: 2}

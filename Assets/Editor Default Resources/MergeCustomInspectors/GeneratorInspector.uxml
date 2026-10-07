@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:ui="UnityEngine.UIElements"
+         xmlns:uie="UnityEditor.UIElements"
+         xmlns:custom="MergeIt.Editor.Configs"
+         xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd">
+    <ui:Box class="itemBoxWrap">
+        <ui:Toggle name="GeneratorSettingsFoldout" text="Generator Settings" class="customFoldout">
+            <ui:Label name="Arrow" text="►" class="customFoldout__arrow" /> 
+        </ui:Toggle>
+        <ui:Box class="itemBoxWrap1" name="GeneratorSettings">
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Generate blocked:" class="itemLabel"/>
+                <ui:Toggle name="GenerateBlocked" binding-path="_generatorSettings._generateBlocked"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Is unlimited:" class="itemLabel"/>
+                <ui:Toggle name="IsUnlimited" binding-path="_generatorSettings._isUnlimited"/>
+            </ui:VisualElement>
+
+            <ui:Box name="StackContainer" class="boxBlock boxBack">
+                <ui:VisualElement class="itemContainer">
+                    <ui:Label text="Stack:" class="itemLabel"/>
+                    <uie:IntegerField name="Stack" class="itemInteger" binding-path="_generatorSettings._stack"/>
+                </ui:VisualElement>
+            </ui:Box>
+
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Need open:" class="itemLabel"/>
+                <ui:Toggle name="NeedOpen" binding-path="_generatorSettings._needOpen"/>
+            </ui:VisualElement>
+
+            <ui:Box name="NeedOpenContainer" class="boxBlock boxBack">
+                <ui:VisualElement class="itemContainer">
+                    <ui:Label text="Open time:" class="itemLabel"/>
+                    <uie:IntegerField name="OpenTime" class="itemInteger"
+                                      binding-path="_generatorSettings._openTime"/>
+                </ui:VisualElement>
+                <custom:CurrencyComponent name="SkipOpenParameters" title="Skip Open Cost:"
+                                          type-binding="_generatorSettings._skipOpenCostSettings._currencyType"
+                                          amount-binding="_generatorSettings._skipOpenCostSettings._amount"/>
+            </ui:Box>
+
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Min drop:" class="itemLabel"/>
+                <uie:IntegerField name="MinDrop" class="itemInteger" binding-path="_generatorSettings._minDrop"/>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Max drop:" class="itemLabel"/>
+                <uie:IntegerField name="MaxDrop" class="itemInteger" binding-path="_generatorSettings._maxDrop"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Is charged:" class="itemLabel"/>
+                <ui:Toggle name="Charged" binding-path="_generatorSettings._charged"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Charging time:" class="itemLabel"/>
+                <uie:IntegerField name="ChargeTime" class="itemInteger"
+                                  binding-path="_generatorSettings._chargeTime"/>
+            </ui:VisualElement>
+            <custom:CurrencyComponent name="SkipChargeParameters" title="Skip Charge Cost:"
+                                      type-binding="_generatorSettings._skipChargeCostSettings._currencyType"
+                                      amount-binding="_generatorSettings._skipChargeCostSettings._amount"/>
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Drop count:" class="itemLabel"/>
+                <uie:IntegerField name="DropCount" class="itemInteger"
+                                  binding-path="_generatorSettings._dropCount"/>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Energy cost:" class="itemLabel"/>
+                <uie:IntegerField name="EnergyCost" class="itemInteger"
+                                  binding-path="_generatorSettings._energyCost"/>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="itemContainer">
+                <ui:Label text="Skipped by Ad:" class="itemLabel"/>
+                <ui:Toggle name="AdSkip" binding-path="_generatorSettings._adSkip"/>
+            </ui:VisualElement>
+            <ui:Box class="boxBlock boxBack">
+                <ui:Label text="Generates:" class="itemBoxLabel"/>
+                <ui:VisualElement name="GenerateSection" class="generateSettings">
+                    <ui:VisualElement name="GenItemsContainer" class="itemsGen"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="CantGenerateSection" class="cantGenerateSettings"/>
+            </ui:Box>
+            <ui:VisualElement name="GeneratedItemsControls" class="generatedItemsControls generateSettings">
+                <ui:Button name="CreateGenerateItem" text="+" class="addButton"/>
+                <ui:Button name="ClearGenerateItem" text="Clear all" class="clearButton"/>
+            </ui:VisualElement>
+        </ui:Box>
+    </ui:Box>
+</ui:UXML>

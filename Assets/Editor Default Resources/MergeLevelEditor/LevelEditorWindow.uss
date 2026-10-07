@@ -1,0 +1,205 @@
+TemplateContainer {
+    flex-grow: 1;
+}
+
+#VSplitterAnchor {
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    background-color: rgb(89, 89, 89);
+    color: rgb(210, 210, 210);
+}
+
+#HSplitterAnchor {
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    background-color: rgb(89, 89, 89);
+    color: rgb(210, 210, 210);
+}
+
+.toolbar {
+    border-top-width: 1px;
+}
+
+.schemeField {
+    width: 200px;
+}
+
+.createButton {
+    margin-top: 5px;
+}
+
+.popup {
+    position: absolute;
+    border-radius: 1px;
+    -unity-font-style: bold;
+}
+
+.popupVisible {
+    visibility: visible;
+}
+
+.popupHidden {
+    visibility: hidden;
+}
+
+.gridButton {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin-left: 2px;
+    background-color: antiquewhite;
+}
+
+.gridHeaderLabel {
+    width: 50px;
+    position: relative;
+    align-content: center;
+    align-self: center;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    -unity-font-style: bold;
+}
+
+.gridLabelColumn {
+    position: relative;
+    margin-right: 2px;
+    width: 20px;
+    -unity-font-style: bold;
+}
+
+.gridSelectedButton {
+    height: 50px;
+    width: 50px;
+    border-width: 2px;
+    border-color: aqua;
+    position: relative;
+    margin-left: 2px;
+    background-color: darkgrey;
+}
+
+.itemsGridRow {
+    flex-direction: row;
+    margin-top: 2px;
+}
+
+.itemsGridRowHeader {
+    flex-direction: row;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.evoList > Label {
+    width: 70px;
+    min-width: 70px;
+}
+
+.evoList > VisualElement {
+    width: 100px;
+    min-width: 100px;
+}
+
+.topMenu {
+    flex-direction: row;
+    align-self: center;
+}
+
+#ItemsGrid {
+    align-items: center;
+    overflow: scroll;
+}
+
+#ButtonHolder {
+    padding: 2px;
+    height: 30px;
+    width: auto;
+    background-color: rgb(35, 35, 35);
+    flex-direction: row;
+}
+
+#Container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: auto;
+}
+
+#LeftPanel {
+    align-self: center;
+    display: flex;
+    -unity-text-align: middle-center;
+    flex: 1;
+    width: auto;
+    border-width: 2px;
+}
+
+#RightPanel {
+    width: 100px;
+    max-width: 300px;
+    height: auto;
+    flex: 1;
+    background-color: rgba(44, 44, 44, 0.8);
+    position: relative;
+    border-width: 2px;
+    align-content: stretch;
+    align-self: stretch;
+    display: flex;
+}
+
+#ItemFrameSettings {
+    flex-grow: 1;
+}
+
+#ItemFrameSettings Label {
+    -unity-text-align: upper-left;
+}
+
+#itemName {
+    flex: 1;
+}
+
+#itemName > Label {
+    width: 130px;
+    min-width: 0;
+}
+
+#EvolutionsField {
+    min-width: 100px;
+    max-width: 300px;
+}
+
+.itemFrameIcon {
+    width: 64px;
+    height: 64px;
+}
+
+.editorLabel {
+    align-self: center;
+}
+
+.warnLabel {
+    align-self: center;
+    font-size: 26px;
+    color: yellow;
+    margin-bottom: 5px;
+}
+
+.copyContainer {
+    margin-top: 5px;
+    flex-direction: row;
+    flex-shrink: 1;
+}
+
+.intField > Label {
+    min-width: 30px;
+    max-width: 50px;
+    align-self: center;
+}
+
+.intField > IntegerInput {
+    width: 50px;
+    max-width: 50px;
+}

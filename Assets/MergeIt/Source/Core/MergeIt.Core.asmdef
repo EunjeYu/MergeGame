@@ -1,0 +1,18 @@
+{
+    "name": "MergeIt.Core",
+    "rootNamespace": "MergeIt.Core",
+    "references": [
+        "GUID:03c6c796793224c71b0642498b843955",
+        "GUID:435c686cf9f214af1bc3fa0e9e92d882",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
